@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-west-2:445564630809:semios-v4-json-logs-stage:1b0e979b-463b-4cb5-9569-f17d3d6365b6",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "f15c7230-eb1f-51b9-84ed-3d4368c7d5ef",
+                "TopicArn": "arn:aws:sns:us-west-2:445564630809:semios-v4-json-logs-stage",
+                "Subject": "Amazon S3 Notification",
+                "Message": "{\"Records\":[{\"eventVersion\":\"2.0\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"us-west-2\",\"eventTime\":\"2016-03-28T19:10:16.091Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AIDAI5STD7QLWY3TE5W7U\"},\"requestParameters\":{\"sourceIPAddress\":\"54.186.199.187\"},\"responseElements\":{\"x-amz-request-id\":\"F67AE02320EC2AF9\",\"x-amz-id-2\":\"WV2/l5yGRv5jgJlWDqTaS7Yn1LyIuyvNhiIRPc6SPWWdnLsXVGDg0DoztWLLFGYR0q924ngrSL4=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"cf6cc01a-42e9-4ce4-bcec-515069b0342d\",\"bucket\":{\"name\":\"semios-stage-gateway-pings-zips\",\"ownerIdentity\":{\"principalId\":\"A1PV7C9T3E3QD\"},\"arn\":\"arn:aws:s3:::semios-stage-gateway-pings-zips\"},\"object\":{\"key\":\"001C2C1AD606C80C/1481587920.json.gz\",\"size\":20423,\"eTag\":\"5b8aa69e306d87ad1416f4685c0f58fd\",\"sequencer\":\"0056F981981221E671\"}}}]}",
+                "Timestamp": "2016-03-28T19:10:16.133Z",
+                "SignatureVersion": "1",
+                "Signature": "YQ5ehSSFW2ZvTohaMdYSDUdbDte6Ca4WbAb+n+zKxzWMGsp5erqUxRFaQYUgRaEEswvCluLuXh7I3+9SpLaT3fRsmVxEUGOUU0lPGwia3R3vDwpYHLxXxD7qb1k2pxVnYXe6oJm1ZlgPNYyhQHAxSFVVGdjUqdaS3vVf48eXksH8pchH9Y1DjTlTAa/keyRs1AoA+0RYYsIDvR20oGBAIDhR4BaXvZg5C1TtZXRgyJ6CbXijUFBB1jZ66gN5WykxPqmt49J/Hx302D813nAsM2sNVut/LixxBBQExmJHlbk6+l+gmGVUeC0mbbSxWDALN1MR9RKHYeUe2nREaVfkTQ==",
+                "SigningCertUrl": "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-bb750dd426d95ee9390147a5624348ee.pem",
+                "UnsubscribeUrl": "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:445564630809:semios-v4-json-logs-stage:1b0e979b-463b-4cb5-9569-f17d3d6365b6",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}
